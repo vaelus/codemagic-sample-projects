@@ -1,8 +1,8 @@
 workflows:
-  ios-automatic-code-signing:
-    name: iOS automatic code signing
-    instance_type: mac_mini_m2
-    working_directory: ios/ios-automatic-code-signing-demo-project
+  sample-workflow:
+  name: Codemagic Sample Workflow
+  max_build_duration: 120
+  instance_type: mac_mini_m2
     environment:
       groups:
          - ios
